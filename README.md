@@ -15,7 +15,7 @@
 
 給一個輸入 n ,透過以上的演算法我們可以得到一個數列（1作為結尾）。此數列的長度稱為n的cycle-length。上面提到的例子, 22 的 cycle length為 16. 
 
-問題來了：對任2個整數i，j我們想要知道介於i，j（包含i，j）之間的數所產生的數列中，何數有最大的 cycle length 是多少。 
+問題來了：對任2個整數i，j我們想要知道介於i，j（包含i，j）之間的數所產生的數列中，何數有最大的 cycle length 是多少。 舉例來說：輸入1和10，則要找出1到10之間，何數的 cycle length 最大，因爲其中9的 cycle length 為20，是1到10的所有數字中最大的，因此輸出20。
 
 此題運用「考拉茲猜想 Collatz conjecture」，請參考 (https://zh.wikipedia.org/wiki/考拉兹猜想)
 
